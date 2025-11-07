@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 24.8.1.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { background: transparent }
+		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
+		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共創型 経営伴走プログラム </span></font>| <font face="NSimSun, monospace"><span lang="zh-CN">互助型経営支援のご提案</span></font>&lt;/title&gt;
+    &lt;!-- ▼ <font face="NSimSun, monospace"><span lang="zh-CN">修正点：</span></font>Google<font face="NSimSun, monospace"><span lang="zh-CN">サイト埋め込み対策（新しいタブで開かないようにする） ▼ </span></font>--&gt;
+    &lt;base target=&quot;_self&quot;&gt;
+    &lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&amp;family=Noto+Sans+JP:wght@300;400;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;style&gt;
+        :root {
+            /* <font face="NSimSun, monospace"><span lang="zh-CN">ユーザー指定色を反映 </span></font>*/
+            --harvard-crimson: #701E04; /* <font face="NSimSun, monospace"><span lang="zh-CN">メインカラー </span></font>*/
+            --dark-blue: #032243;      /* <font face="NSimSun, monospace"><span lang="zh-CN">ベースカラー </span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">ダークブルー</span></font>) */
+
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a; /* <font face="NSimSun, monospace"><span lang="zh-CN">濃いグレー </span></font>*/
+            --border-color: #d1d5db;   /* <font face="NSimSun, monospace"><span lang="zh-CN">薄いグレー </span></font>*/
+            --background-light: #f9fafb; /* <font face="NSimSun, monospace"><span lang="zh-CN">非常に薄いグレー </span></font>*/
+        }
+        /* <font face="NSimSun, monospace"><span lang="zh-CN">スムーズスクロールの追加 </span></font>*/
+        /*
+          <font face="NSimSun, monospace"><span lang="zh-CN">注：</span></font>Google<font face="NSimSun, monospace"><span lang="zh-CN">サイト埋め込み時は</span></font>JavaScript<font face="NSimSun, monospace"><span lang="zh-CN">で制御するため、</span></font>
+          html { scroll-behavior: smooth; } <font face="NSimSun, monospace"><span lang="zh-CN">は意図的に無効化（または</span></font>JS<font face="NSimSun, monospace"><span lang="zh-CN">側で上書き）します。</span></font>
+          <font face="NSimSun, monospace"><span lang="zh-CN">ただし、単体ファイルとして開いた時のために残しても問題ありません。</span></font>
+        */
+        html {
+             /* scroll-behavior: smooth; */ /* JS<font face="NSimSun, monospace"><span lang="zh-CN">で制御するためコメントアウト推奨 </span></font>*/
+        }
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: var(--text-primary);
+            line-height: 1.85;
+            background-color: #ffffff;
+        }
+        h1, h2, h3, h4, h5 {
+            font-family: 'Noto Serif JP', serif;
+            color: var(--dark-blue);
+            font-weight: 700;
+            letter-spacing: 0.025em;
+        }
+        .report-title {
+            font-family: 'Noto Serif JP', serif;
+            color: var(--harvard-crimson);
+            font-size: 2.75rem;
+            letter-spacing: 0.05em;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        /* <font face="NSimSun, monospace"><span lang="zh-CN">スタイリッシュな英語タイトル </span></font>*/
+        .report-eng-title {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 0.875rem; 
+            color: var(--text-secondary); 
+            font-weight: 700; 
+            letter-spacing: 0.2em; 
+            text-transform: uppercase; 
+            margin-top: 0.75rem;
+        }
+        .report-subtitle {
+            font-family: 'Noto Serif JP', serif;
+            color: var(--dark-blue);
+            font-size: 1.75rem;
+            margin-top: 1rem;
+            font-weight: 400;
+        }
+        .chapter-title {
+            font-size: 2.25rem;
+            border-bottom: 2px solid var(--harvard-crimson);
+            padding-bottom: 0.75rem;
+            margin-bottom: 2.5rem;
+            margin-top: 4rem;
+        }
+        .section-title {
+            font-size: 1.6rem;
+            border-left: 4px solid var(--harvard-crimson);
+            padding-left: 1.25rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            color: var(--dark-blue);
+        }
+        .subsection-heading {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+        .prose p {
+            margin-bottom: 1.5em;
+            color: var(--text-primary);
+        }
+        .prose .lead {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            font-weight: 300;
+        }
+        .explanation-box {
+            background-color: var(--background-light);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--dark-blue);
+            padding: 1.75rem;
+            margin: 2rem 0;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            border-radius: 4px;
+        }
+        .explanation-box p {
+            margin-bottom: 1em;
+        }
+        .explanation-box p:last-child {
+            margin-bottom: 0;
+        }
+        .list-disc {
+            list-style-type: disc;
+            padding-left: 1.75rem;
+        }
+        .list-disc li, .list-decimal li {
+            margin-bottom: 0.75rem;
+            padding-left: 0.5rem;
+        }
+        .list-decimal {
+            list-style-type: decimal;
+            padding-left: 1.75rem;
+        }
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .custom-table th, .custom-table td {
+            border: 1px solid var(--border-color);
+            padding: 0.75rem 1rem;
+            text-align: left; /* <font face="NSimSun, monospace"><span lang="zh-CN">デフォルトを左寄せに変更 </span></font>*/
+            vertical-align: top;
+        }
+        .custom-table thead {
+            background-color: var(--dark-blue);
+            color: white;
+            font-weight: 700;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .custom-table tbody tr:nth-child(even) {
+            background-color: var(--background-light);
+        }
+        .custom-table th:first-child, .custom-table td:first-child {
+             font-weight: 700;
+             background-color: rgba(249, 250, 251, 0.7);
+        }
+        .custom-table .col-emphasis {
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .custom-table .text-right { /* text-right<font face="NSimSun, monospace"><span lang="zh-CN">クラスは維持しつつ、デフォルトは左寄せに </span></font>*/
+            text-align: right;
+        }
+        .custom-table thead th { /* <font face="NSimSun, monospace"><span lang="zh-CN">ヘッダーも左寄せを明示 </span></font>*/
+             text-align: left;
+        }
+        .custom-table tfoot th, .custom-table tfoot td {
+            font-weight: 700;
+            background-color: #f3f4f6;
+        }
+        .table-caption {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: -1rem;
+            margin-bottom: 2rem;
+            text-align: right;
+        }
+        .confidential-note {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+            font-family: 'Noto Serif JP', serif;
+        }
+        .slack-channel {
+            font-family: 'Menlo', 'Consolas', monospace;
+            background-color: rgba(3, 34, 67, 0.05);
+            color: var(--dark-blue);
+            padding: 0.15em 0.5em;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        /* --- <font face="NSimSun, monospace"><span lang="zh-CN">グローバルナビゲーション </span></font>--- */
+        .global-nav {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4rem; /* 64px */
+            background-color: var(--dark-blue);
+            color: white;
+            z-index: 50;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 0 2rem; /* <font face="NSimSun, monospace"><span lang="zh-CN">左右のパディング </span></font>*/
+        }
+        .global-nav-container {
+            max-width: 62rem; /* max-w-4xl (64rem) - padding (2rem*2) */
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+        }
+        .global-nav .nav-title {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 1.125rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .global-nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            gap: 1.5rem; /* space-x-6 */
+        }
+        .global-nav ul li a {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 0.25rem;
+            border-bottom: 2px solid transparent;
+            transition: color 0.3s, border-color 0.3s;
+            letter-spacing: 0.05em; /* <font face="NSimSun, monospace"><span lang="zh-CN">漢字</span></font>2<font face="NSimSun, monospace"><span lang="zh-CN">文字のため少し間隔を調整 </span></font>*/
+            cursor: pointer; /* JS<font face="NSimSun, monospace"><span lang="zh-CN">で制御するためポインターを表示 </span></font>*/
+        }
+        .global-nav ul li a:hover {
+            color: var(--harvard-crimson); /* <font face="NSimSun, monospace"><span lang="zh-CN">ホバー時の色 </span></font>*/
+            border-bottom-color: var(--harvard-crimson);
+        }
+
+
+        /* --- STYLISH PROCESS FLOW --- */
+        .chevron-process {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            width: 100%;
+            margin: 2rem 0;
+            padding: 0;
+            list-style: none;
+            height: 3.5rem;
+            min-width: 700px;
+        }
+        .chevron-step {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 1rem 0 2rem;
+            position: relative;
+            background-color: var(--background-light);
+            color: var(--dark-blue);
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-align: center;
+            margin-right: 1.25rem;
+            transition: background-color 0.3s;
+            line-height: 1.3;
+            white-space: nowrap;
+        }
+        .chevron-step::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -1.25rem;
+            width: 0;
+            height: 0;
+            border-top: 1.75rem solid transparent;
+            border-bottom: 1.75rem solid transparent;
+            border-left: 1.25rem solid var(--background-light);
+            z-index: 2;
+            transition: border-left-color 0.3s;
+        }
+        .chevron-step::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-top: 1.75rem solid transparent;
+            border-bottom: 1.75rem solid transparent;
+            border-left: 1.25rem solid white;
+            z-index: 1;
+        }
+        .chevron-step:first-child {
+            padding-left: 1rem;
+            border-radius: 6px 0 0 6px;
+        }
+        .chevron-step:first-child::before {
+            display: none;
+        }
+        .chevron-step:last-child {
+            margin-right: 0;
+            border-radius: 0 6px 6px 0;
+            padding-right: 1rem;
+        }
+        .chevron-step:last-child::after {
+            display: none;
+        }
+
+        .chevron-step-1 { background-color: #f0f2f5; }
+        .chevron-step-1::after { border-left-color: #f0f2f5; }
+        .chevron-step-2 { background-color: #e6e9ed; }
+        .chevron-step-2::after { border-left-color: #e6e9ed; }
+        .chevron-step-3 { background-color: #dbe0e6; }
+        .chevron-step-3::after { border-left-color: #dbe0e6; }
+        .chevron-step-4 { background-color: #d1d7de; }
+        .chevron-step-4::after { border-left-color: #d1d7de; }
+        .chevron-step-5 {
+            background-color: var(--dark-blue);
+            color: white;
+        }
+        .chevron-step:hover {
+            background-color: var(--harvard-crimson);
+            color: white;
+        }
+        .chevron-step:hover::after {
+            border-left-color: var(--harvard-crimson);
+        }
+
+        /* --- STYLISH PROCESS FLOW (Vertical) --- */
+        .step-process-container {
+            margin: 2.5rem 0;
+            padding: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .step-process-item {
+            display: flex;
+            align-items: center;
+            position: relative;
+            background-color: var(--background-light);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            overflow: hidden;
+        }
+        .step-process-item:not(:last-child)::after {
+            content: '↓';
+            position: absolute;
+            bottom: -1.25rem;
+            left: 2.5rem;
+            transform: translateX(-50%);
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--harvard-crimson);
+            z-index: 10;
+        }
+        .step-number {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background-color: var(--dark-blue);
+            color: white;
+            font-family: 'Noto Serif JP', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-right: 1.5rem;
+        }
+        .step-content {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.5;
+        }
+        .step-content strong {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 700;
+            font-size: 1.125rem;
+            color: var(--text-primary);
+        }
+        .step-content span {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+        .step-process-item:first-child .step-number {
+            background-color: var(--harvard-crimson);
+        }
+        
+        /* --- <font face="NSimSun, monospace"><span lang="zh-CN">フッターセクション </span></font>--- */
+        .final-footer {
+            border-top: 2px solid var(--border-color);
+            margin-top: 5rem;
+            padding-top: 2.5rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        .final-footer p { /* <font face="NSimSun, monospace"><span lang="zh-CN">フッターの段落余白を調整 </span></font>*/
+             margin-bottom: 1em;
+             font-size: 0.875rem; /* <font face="NSimSun, monospace"><span lang="zh-CN">サイズを明示的に指定 </span></font>*/
+        }
+        .final-footer h4 { /* <font face="NSimSun, monospace"><span lang="zh-CN">フッターの</span></font>H4<font face="NSimSun, monospace"><span lang="zh-CN">スタイル </span></font>*/
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        .link-button {
+            display: inline-block;
+            border: 1px solid var(--harvard-crimson);
+            color: var(--harvard-crimson);
+            padding: 0.35rem 1rem;
+            border-radius: 4px;
+            font-weight: 700;
+            transition: all 0.2s ease-in-out;
+            text-decoration: none;
+            font-size: 0.875rem; /* <font face="NSimSun, monospace"><span lang="zh-CN">ボタンの文字サイズ </span></font>*/
+        }
+        .link-button:hover {
+            background-color: var(--harvard-crimson);
+            color: white;
+            text-decoration: none;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;bg-white&quot;&gt;
+    
+    &lt;!-- === <font face="NSimSun, monospace"><span lang="zh-CN">グローバルナビゲーションの修正 </span></font>=== --&gt;
+    &lt;nav class=&quot;global-nav&quot;&gt;
+        &lt;div class=&quot;global-nav-container&quot;&gt;
+            &lt;span class=&quot;nav-title&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共創型 経営伴走プログラム</span></font>&lt;/span&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">序論</span></font>&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#design&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">設計</span></font>&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#modules&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">構成</span></font>&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#measurement&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">成果</span></font>&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#investment&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">投資</span></font>&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#appendix&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">付録</span></font>&lt;/a&gt;&lt;/li&gt;
+                &lt;!-- ▼ <font face="NSimSun, monospace"><span lang="zh-CN">修正点：「連絡先」リンクを追加 ▼ </span></font>--&gt;
+                &lt;li&gt;&lt;a href=&quot;#contact-anchor&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">連絡先</span></font>&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;!-- === /<font face="NSimSun, monospace"><span lang="zh-CN">グローバルナビゲーション </span></font>=== --&gt;
+
+    &lt;div class=&quot;max-w-4xl mx-auto p-8 md:p-16&quot;&gt;
+        &lt;header class=&quot;text-left mb-16 pb-8 border-b-2 border-gray-100&quot;&gt;
+            &lt;h1 class=&quot;report-title&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共創型 経営伴走プログラム</span></font>&lt;/h1&gt;
+            &lt;p class=&quot;report-eng-title&quot;&gt;Co-Creation Management Acceleration Program&lt;/p&gt;
+            &lt;h2 class=&quot;report-subtitle&quot;&gt;— <font face="NSimSun, monospace"><span lang="zh-CN">共に究め、個で極む —</span></font>&lt;/h2&gt;
+            
+            &lt;div class=&quot;mt-8 text-lg text-gray-700&quot;&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">互助型経営支援のご提案</span></font>&lt;/p&gt;
+                &lt;p class=&quot;text-base mt-2&quot;&gt;2025<font face="NSimSun, monospace"><span lang="zh-CN">年</span></font>11<font face="NSimSun, monospace"><span lang="zh-CN">月</span></font>3<font face="NSimSun, monospace"><span lang="zh-CN">日</span></font>&lt;/p&gt;
+                &lt;p class=&quot;text-base mt-1&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">株式会社ブラッドストーン・コンサルティング</span></font>&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;p class=&quot;confidential-note mt-8&quot;&gt;Confidential — Draft for Discussion / © The Bradstone Consulting&lt;/p&gt;
+        &lt;/header&gt;
+
+        &lt;main class=&quot;prose max-w-none&quot;&gt;
+            
+            &lt;section&gt;
+                &lt;!-- <font face="NSimSun, monospace"><span lang="zh-CN">スクロールアンカーのために</span></font>ID<font face="NSimSun, monospace"><span lang="zh-CN">を設定 </span></font>--&gt;
+                &lt;h2 class=&quot;chapter-title&quot; id=&quot;introduction&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">序論：知識から実践への架け橋</span></font>&lt;/h2&gt;
+
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">君津商工会議所主催「</span></font>KEEP<font face="NSimSun, monospace"><span lang="zh-CN">経営研修会」は、</span></font>2025<font face="NSimSun, monospace"><span lang="zh-CN">年</span></font>6<font face="NSimSun, monospace"><span lang="zh-CN">月から月</span></font>1<font face="NSimSun, monospace"><span lang="zh-CN">回のペースで実施し、</span></font>10<font face="NSimSun, monospace"><span lang="zh-CN">月</span></font>17<font face="NSimSun, monospace"><span lang="zh-CN">日に全</span></font>5<font face="NSimSun, monospace"><span lang="zh-CN">回を終了いたしました。中小企業の成長戦略、</span></font>DX<font face="NSimSun, monospace"><span lang="zh-CN">・</span></font>AI<font face="NSimSun, monospace"><span lang="zh-CN">の活用、自社の強みと価値創造、スポーツ地域戦略、顧客創造を支える組織づくりまで、現代の経営者が向き合う中核テーマを扱い、講義・対話・簡易演習を交えながら、基礎理論やフレームワークを「共通言語」として共有することを意図した内容です。お忙しいなか継続的にご参加くださった企業経営者の皆様に、改めて御礼申し上げます。今回の学びや最新動向の整理が、日々の思考や社内の対話を整える一助となっていれば幸いです。</span></font>&lt;/p&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">同時に、研修を通じて「</span></font>Knowing–Doing Gap<font face="NSimSun, monospace"><span lang="zh-CN">（知行ギャップ）」—知識を実務に落とし込み、成果に結びつける「最後の一歩」の難しさ—も確認いたしました。各社の業種・規模・資源制約・ガバナンスは多様であり、汎用的な知見を個社の意思決定や業務改善に結び付けるには、状況に即した設計と仮説検証のサイクル、そして小さく始めて早く学ぶ姿勢が重要だと受け止めております。</span></font>&lt;/p&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">こうした認識のもと、少数企業様に限定した「共創型 経営伴走プログラム」をご提案いたします。従来の研修やスポット助言にとどまらず、継続的かつ双方向のエンゲージメントを核に、実装までをご一緒する設計です。運営の骨子は、以下の</span></font>5<font face="NSimSun, monospace"><span lang="zh-CN">ステップの反復を基本とします。</span></font>&lt;/p&gt;
+
+                &lt;!-- 5<font face="NSimSun, monospace"><span lang="zh-CN">ステップのプロセス図 </span></font>--&gt;
+                &lt;div class=&quot;step-process-container&quot;&gt;
+                    &lt;div class=&quot;step-process-item&quot;&gt;
+                        &lt;div class=&quot;step-number&quot;&gt;1&lt;/div&gt;
+                        &lt;div class=&quot;step-content&quot;&gt;
+                            &lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">初期診断</span></font>&lt;/strong&gt;
+                            &lt;span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（現状・課題・指標の棚卸し）</span></font>&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;step-process-item&quot;&gt;
+                        &lt;div class=&quot;step-number&quot;&gt;2&lt;/div&gt;
+                        &lt;div class=&quot;step-content&quot;&gt;
+                            &lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">論点設定</span></font>&lt;/strong&gt;
+                            &lt;span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（仮説と優先順位づけ）</span></font>&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;step-process-item&quot;&gt;
+                        &lt;div class=&quot;step-number&quot;&gt;3&lt;/div&gt;
+                
+                        &lt;div class=&quot;step-content&quot;&gt;
+                            &lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">短サイクル実験</span></font>&lt;/strong&gt;
+                            &lt;span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（数週間単位のマイクロ実装）</span></font>&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;step-process-item&quot;&gt;
+                        &lt;div class=&quot;step-number&quot;&gt;4&lt;/div&gt;
+                        &lt;div class=&quot;step-content&quot;&gt;
+                            &lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">レビュー</span></font>&lt;/strong&gt;
+                            &lt;span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（</span></font>KPI<font face="NSimSun, monospace"><span lang="zh-CN">と学習の振り返り）</span></font>&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;step-process-item&quot;&gt;
+                        &lt;div class=&quot;step-number&quot;&gt;5&lt;/div&gt;
+                        &lt;div class=&quot;step-content&quot;&gt;
+                            &lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">定着化・内製化</span></font>&lt;/strong&gt;
+                            &lt;span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（標準化と運用移管）</span></font>&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- / 5<font face="NSimSun, monospace"><span lang="zh-CN">ステップのプロセス図 </span></font>--&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">プログラムでは、各社に共通する基盤（</span></font>OKR<font face="NSimSun, monospace"><span lang="zh-CN">・</span></font>KPI<font face="NSimSun, monospace"><span lang="zh-CN">設計、進捗ダッシュボード、定例レビュー）と、守秘義務を前提とした安心な対話の場を整えます。単一の「正解」を提示するのではなく、各社が自社の文脈で最適解を導き、実行するプロセスそのものを伴走することを大切にいたします。</span></font>&lt;/p&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">支援領域は、経営開発設計（計画策定・実行支援）、既存事業の再構築、新規事業開発、財務戦略、管理会計・</span></font>KPI<font face="NSimSun, monospace"><span lang="zh-CN">設計、人材・組織開発、海外市場開拓、</span></font>AI<font face="NSimSun, monospace"><span lang="zh-CN">活用による経営・業務効率化など、多岐にわたります。少数精鋭のグループ形式を取り入れ、企業間の</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">双方向学習と啓発</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">を促しつつ、個別課題には個別支援で向き合うハイブリッド型により、負担を抑えながら密度の高い支援をめ</span></font>z<font face="NSimSun, monospace"><span lang="zh-CN">します。</span></font>&lt;/p&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">本取り組みが、地域経済を支える中堅・中小企業の持続的成長、ひいては御社のさらなる前進に、ささやかながら寄与できましたら幸いに存じます。</span></font>&lt;/p&gt;
+            &lt;/section&gt;
+
+            &lt;section&gt;
+                &lt;h2 class=&quot;chapter-title&quot; id=&quot;design&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">第</span></font>1<font face="NSimSun, monospace"><span lang="zh-CN">章：プログラムの設計思想 — 二層構造による価値の最大化</span></font>&lt;/h2&gt;
+
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">本プログラムの設計は、前述した「知識から実践へのギャップ」という核心的課題に対する直接的な回答です。我々はその構造を、「合同で学び、個別で実装」というコンセプトに集約しました。これは、学習の効率性と実装の有効性という、時に相反する二つの要求を両立させるための戦略的設計です。</span></font>&lt;/p&gt;
+
+                &lt;div class=&quot;explanation-box&quot;&gt;
+                    &lt;h4 class=&quot;font-bold text-lg mb-4 text-gray-800&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">プログラムの核心的価値</span></font>&lt;/h4&gt;
+                    &lt;ul class=&quot;list-disc pl-5 space-y-3&quot;&gt;
+                        &lt;li&gt;&lt;strong&gt;Why<font face="NSimSun, monospace"><span lang="zh-CN">（問題意識）：</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">汎用知から現場実装への</span></font>&quot;<font face="NSimSun, monospace"><span lang="zh-CN">最後の一歩</span></font>&quot;<font face="NSimSun, monospace"><span lang="zh-CN">にギャップ。</span></font>&lt;/li&gt;
+                        &lt;li&gt;&lt;strong&gt;What<font face="NSimSun, monospace"><span lang="zh-CN">（解決策）：</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">少数企業で共通基盤を整え、各社は</span></font>1on1<font face="NSimSun, monospace"><span lang="zh-CN">伴走で深掘り、成果への伴走。</span></font>&lt;/li&gt;
+                        &lt;li&gt;&lt;strong&gt;How<font face="NSimSun, monospace"><span lang="zh-CN">（実行手段）：</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共通＝ワークショップ／実務インサイト／共通診断／ナレッジ。個別＝</span></font>1on1<font face="NSimSun, monospace"><span lang="zh-CN">／スポット。</span></font>&lt;/li&gt;
+                        &lt;li&gt;&lt;strong&gt;Value<font face="NSimSun, monospace"><span lang="zh-CN">（提供価値）：</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">実装力を高め、意思決定を速め、知見を再利用し、守秘を確保する。</span></font>&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">この設計は、二つの異なるレイヤーが有機的に連動することで機能します。</span></font>&lt;/p&gt;
+
+                &lt;h3 class=&quot;section-title&quot; id=&quot;layer-common&quot;&gt;1.1 <font face="NSimSun, monospace"><span lang="zh-CN">共通レイヤー：知の基盤と相互学習</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">「共通レイヤー」は、参加企業各社に共通する経営基盤を効率的に底上げする役割を担います。ここでは、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">原理・最新知見・テンプレートを迅速に共有</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">し、経営の「</span></font>OS<font face="NSimSun, monospace"><span lang="zh-CN">」をアップデートします。このレイヤーは、集合研修のスケールメリットを活かし、高度な知見を低コストで獲得する場であると同時に、異業種の経営者間での相互学習（</span></font>Peer Learning<font face="NSimSun, monospace"><span lang="zh-CN">）を促進し、新たな視座を獲得する場でもあります。</span></font>&lt;/p&gt;
+
+                &lt;h3 class=&quot;section-title&quot; id=&quot;layer-individual&quot;&gt;1.2 <font face="NSimSun, monospace"><span lang="zh-CN">個別レイヤー：実装と成果への伴走</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">「個別レイヤー」は、本プログラムの核となる価値提供の場です。ここでは、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">個別では</span></font>1on1<font face="NSimSun, monospace"><span lang="zh-CN">で優先課題へ具体化します。</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共通レイヤーで得た知見を、各社の固有の文脈に即して「翻訳」し、実行可能なアクションプランへと落とし込みます。機密性が高い経営課題については、このレイヤーで厳格な守秘義務のもと、深く掘り下げた議論を行います。</span></font>&lt;/p&gt;
+
+                &lt;h3 class=&quot;section-title&quot; id=&quot;layer-synergy&quot;&gt;1.3 <font face="NSimSun, monospace"><span lang="zh-CN">連携と相乗効果</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">本プログラムの真価は、これら二つのレイヤーの連動性にあります。</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共通レイヤーと個別レイヤーを連動させて学習と実装を結びます。</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">この連動により、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">知の再利用と意思決定の速度を両立し、実務の生産性と成果の再現性を高めます。</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">具体的には、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共通で得た示唆は標準化し、個別で検証→改善の短いループを回す設計です。</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">このアジャイルなアプローチにより、机上の空論を排し、現実的な成果を追求します。当然ながら、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">機密情報は個社単位で厳格に扱います。</span></font>&lt;/strong&gt;&lt;/S&gt;
+            &lt;/section&gt;
+
+            &lt;section&gt;
+                &lt;h2 class=&quot;chapter-title&quot; id=&quot;modules&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">第</span></font>2<font face="NSimSun, monospace"><span lang="zh-CN">章：プログラムの構成 — モジュール型支援の全体像</span></font>&lt;/h2&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">経営課題が多様化・複雑化する現代において、画一的なコンサルティング・パッケージは有効性を失いつつあります。本プログラムは、各社の固有の状況に柔軟に対応するため、モジュール型のアプローチを採用します。</span></font>&lt;/p&gt;
+
+                &lt;h3 class=&quot;section-title&quot; id=&quot;module-priority&quot;&gt;2.1 <font face="NSimSun, monospace"><span lang="zh-CN">優先課題に応じた最適モジュールの組み合わせ</span></font>&lt;/h3&gt;
+                &lt;p&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">各社の状況と到達点、優先課題は異なります。</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">この自明の事実を、我々はプログラム設計の出発点としました。</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">個別支援では、経営開発設計／既存事業再構築／新規事業／財務戦略／人材・組織／海外開拓／</span></font>AI<font face="NSimSun, monospace"><span lang="zh-CN">活用の</span></font>7<font face="NSimSun, monospace"><span lang="zh-CN">モジュールから必要部分を選び、順序・深さを設計します。</span></font>&lt;/strong&gt;&lt;/S&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">このプロセスは、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">初期診断で焦点を定め、短サイクルの実装と検証で学習効果を積み上げる</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">という、極めて実践的なものです。これにより、リソースを最も緊急かつ重要な課題に集中投下し、早期に成果を創出することを目指します。</span></font>&lt;/p&gt;
+
+                &lt;!-- <font face="NSimSun, monospace"><span lang="zh-CN">修正点 </span></font>2<font face="NSimSun, monospace"><span lang="zh-CN">：「</span></font>D/<font face="NSimSun, monospace"><span lang="zh-CN">」をここから削除 </span></font>--&gt;
+                &lt;div class=&quot;overflow-x-auto my-12&quot;&gt;
+                     &lt;table class=&quot;custom-table&quot;&gt;
+                         &lt;thead&gt;
+                             &lt;tr&gt;
+                                 &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">領域</span></font>&lt;/th&gt;
+                                 &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">代表テーマ</span></font>&lt;/th&gt;
+                                 &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">アプローチ例</span></font>&lt;/th&gt;
+                                 &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">アウトプット例</span></font>&lt;/th&gt;
+                             &lt;/tr&gt;
+                         &lt;/thead&gt;
+                         &lt;tbody class=&quot;bg-white&quot;&gt;
+                             &lt;tr&gt;
+                                 &lt;td class=&quot;col-emphasis&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">経営開発設計</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">中期方針／計画運用</span></font>&lt;/td&gt;
+                                 &lt;td&gt;OKR<font face="NSimSun, monospace"><span lang="zh-CN">／</span></font>OGSM<font face="NSimSun, monospace"><span lang="zh-CN">／</span></font>KPI<font face="NSimSun, monospace"><span lang="zh-CN">ツリー／会議体設計</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">方針メモ／年度・四半期計画</span></font>&lt;/td&gt;
+                             &lt;/tr&gt;
+                             &lt;tr&gt;
+                                 &lt;td class=&quot;col-emphasis&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">既存事業再構築</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">粗利是正／</span></font>SKU<font face="NSimSun, monospace"><span lang="zh-CN">・チャネル再設計</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">粗利ブリッジ／顧客・</span></font>SKU<font face="NSimSun, monospace"><span lang="zh-CN">採算／価値連鎖再設計</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">改善アクションマップ</span></font>&lt;/td&gt;
+                             &lt;/tr&gt;
+                             &lt;tr&gt;
+                                 &lt;td class=&quot;col-emphasis&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">新規事業開発</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">機会探索→検証→ローンチ</span></font>&lt;/td&gt;
+                                 &lt;td&gt;JTBD<font face="NSimSun, monospace"><span lang="zh-CN">／</span></font>PMF<font face="NSimSun, monospace"><span lang="zh-CN">仮説→実験設計（</span></font>A/B<font face="NSimSun, monospace"><span lang="zh-CN">）／</span></font>CJ<font face="NSimSun, monospace"><span lang="zh-CN">設計</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">価値仮説／</span></font>MVP<font face="NSimSun, monospace"><span lang="zh-CN">要件／実験計画</span></font>&lt;/td&gt;
+                             &lt;/tr&gt;
+                             &lt;tr&gt;
+                                 &lt;td class=&quot;col-emphasis&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">財務戦略</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">資金繰り／金融機関連携／投資判断</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">簡易</span></font>CF<font face="NSimSun, monospace"><span lang="zh-CN">枠／論点整理／ボード提言</span></font>&lt;/td&gt;
+                                 &lt;td&gt;CF<font face="NSimSun, monospace"><span lang="zh-CN">テンプレ／評価観点メモ</span></font>&lt;/td&gt;
+                             &lt;/tr&gt;
+                             &lt;tr&gt;
+                                 &lt;td class=&quot;col-emphasis&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">人材・組織開発</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">役割・評価／会議体生産性</span></font>&lt;/td&gt;
+                                 &lt;td&gt;RACI<font face="NSimSun, monospace"><span lang="zh-CN">／</span></font>BARS<font face="NSimSun, monospace"><span lang="zh-CN">／</span></font>1on1<font face="NSimSun, monospace"><span lang="zh-CN">設計／会議標準化</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">役割定義書／評価項目素案</span></font>&lt;/td&gt;
+                             &lt;/tr&gt;
+                             &lt;tr&gt;
+                                 &lt;td class=&quot;col-emphasis&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">海外市場開拓</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">市場選定／チャネル・パートナー</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">スクリーニング／</span></font>GTM<font face="NSimSun, monospace"><span lang="zh-CN">設計／法規・リスク観点</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">市場比較表／</span></font>Go/No-Go<font face="NSimSun, monospace"><span lang="zh-CN">基準</span></font>&lt;/td&gt;
+                             &lt;/tr&gt;
+                             &lt;tr&gt;
+                                 &lt;td class=&quot;col-emphasis&quot;&gt;AI<font face="NSimSun, monospace"><span lang="zh-CN">活用・業務効率化</span></font>&lt;/td&gt;
+                                 &lt;td&gt;LLM<font face="NSimSun, monospace"><span lang="zh-CN">／</span></font>RPA<font face="NSimSun, monospace"><span lang="zh-CN">／</span></font>RAG<font face="NSimSun, monospace"><span lang="zh-CN">導入・運用</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">ユースケース選定→</span></font>PoC→<font face="NSimSun, monospace"><span lang="zh-CN">展開／プロンプト設計</span></font>&lt;/td&gt;
+                                 &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">ユースケース表／運用方針素案</span></font>&lt;/td&gt;
+                             &lt;/tr&gt;
+                         &lt;/tbody&gt;
+                     &lt;/table&gt;
+                &lt;/div&gt;
+
+                &lt;h3 class=&quot;section-title&quot; id=&quot;module-common-core&quot;&gt;2.2 <font face="NSimSun, monospace"><span lang="zh-CN">共通基盤を強化する中核プログラム</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">個別モジュールの効果を最大化するため、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共通プログラムは、各社に共通する基盤力を効率よく底上げします。</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">以下の</span></font>6<font face="NSimSun, monospace"><span lang="zh-CN">つのプログラムは、個別実装を支える「知のインフラ」として機能します。</span></font>&lt;/p&gt;
+                
+                &lt;div class=&quot;overflow-x-auto&quot;&gt;
+                    &lt;table class=&quot;custom-table&quot;&gt;
+                        &lt;thead&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共通プログラム</span></font>&lt;/th&gt;
+                                &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">目的と提供価値</span></font>&lt;/th&gt;
+                            &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">ビジネススカラシップ</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">経営理論と戦略フレームワークを体系的に再学習し、共通言語を構築。</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">理論と手順を標準化</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">します。</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">テック／</span></font>AI<font face="NSimSun, monospace"><span lang="zh-CN">ラボ</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">最新のテクノロジー動向、特に</span></font>AI<font face="NSimSun, monospace"><span lang="zh-CN">の実務適用例とリスクを共有。</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">実用性とリスクを評価</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">します。</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">エキスパート・セッション</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">各分野の専門家を招聘し、特定の経営課題に関する最前線の洞察を提供。</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">外部洞察を圧縮</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">します。</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">トレンドダイナミクス</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">マクロ経済、地政学リスク、消費者動向など、経営の前提条件となる外部環境の変化を定点観測します。</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">財務モデリング</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">事業計画の蓋然性を高めるための財務シミュレーション技法を共有。投資判断の精度を高めます。</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">金融機関ピッチと</span></font>&lt;br&gt;<font face="NSimSun, monospace"><span lang="zh-CN">トップ・メディアトレーニング</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">自社の戦略と価値を、投資家やメディアに対して説得力をもって伝達する技術を磨き、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">対外発信の質を高めます。</span></font>&lt;/strong&gt;&lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;
+                &lt;/div&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">これらの共通プログラムは、あくまで</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共通化はテンプレと知見に限り、実データは各社非公開です。</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">これにより、知見の共有と機密情報の保護を両立させます。</span></font>&lt;/p&gt;
+            &lt;/section&gt;
+            
+            &lt;section&gt;
+                &lt;h2 class=&quot;chapter-title&quot; id=&quot;measurement&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">第</span></font>3<font face="NSimSun, monospace"><span lang="zh-CN">章：成果の可視化とプロセスの実行管理</span></font>&lt;/h2&gt;
+
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">「伴走」とは、単に寄り添うことではありません。目的地（成果）に向かって、現在地を正確に把握し、進捗を管理し、軌道修正を繰り返す、規律あるプロセスです。本プログラムは、成果の可視化を最重要事項の一つと位置づけています。</span></font>&lt;/p&gt;
+
+                &lt;h3 class=&quot;section-title&quot; id=&quot;measurement-framework&quot;&gt;3.1 <font face="NSimSun, monospace"><span lang="zh-CN">パフォーマンス管理：「先行指標」と「遅行指標」</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">我々は、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">先行指標で動かし、成果指標で確かめる</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">という二元的なパフォーマンス管理フレームワークを導入します。これは、最終的な結果（遅行指標）だけを追うのではなく、その結果を生み出すための行動やプロセス（先行指標）に焦点を当てるアプローチです。</span></font>&lt;/p&gt;
+
+                &lt;div class=&quot;explanation-box&quot;&gt;
+                    &lt;h4 class=&quot;font-bold text-lg mb-4 text-gray-800&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">経営領域別 指標管理フレームワーク</span></font>&lt;/h4&gt;
+                    &lt;p&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">目的（上位）：持続的な事業成長と組織力強化</span></font>&lt;/strong&gt;&lt;/p&gt;
+                    &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">この上位目的を達成するため、中位の経営領域（戦略・組織・財務）ごとに、先行指標と遅行指標を対で設計し、実行と結果の連動性を可視化します。</span></font>&lt;/p&gt;
+
+                    &lt;div class=&quot;overflow-x-auto mt-4&quot;&gt;
+                        &lt;table class=&quot;custom-table w-full&quot;&gt;
+                            &lt;thead&gt;
+                                &lt;tr&gt;
+                                    &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">領域（中位）</span></font>&lt;/th&gt;
+                                    &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">先行指標例（行動・プロセス）</span></font>&lt;/th&gt;
+                                    &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">遅行指標例（成果・結果）</span></font>&lt;/th&gt;
+                                &lt;/tr&gt;
+                            &lt;/thead&gt;
+                            &lt;tbody class=&quot;bg-white&quot;&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">戦略</span></font>&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">優先課題の特定件数／実装トライ件数</span></font>&lt;/td&gt;
+                                    &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">施策完了率／遅延案件の減少</span></font>&lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">組織</span></font>&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">会議運用の遵守度</span></font>&lt;/td&gt;
+                                    &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（成果指標の改善）</span></font>&lt;/td&gt;
+                                &lt;/tr&gt;
+                                 &lt;tr&gt;
+                                    &lt;td&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">財務</span></font>&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（先行する行動・意思決定）</span></font>&lt;/td&gt;
+                                    &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">資金ポジションの安定</span></font>&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                        &lt;/table&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">ご支援の効果、成果の「測定方法と結果定着運用」のフレームをお示ししています。戦略・実行／組織・会議体／財務の三領域それぞれで、先行指標（先行する行動・意思決定）と遅行指標（成果指標、結果の定着）を対で設計し、共通フォーマットと経営ダッシュボード（</span></font>Notion<font face="NSimSun, monospace"><span lang="zh-CN">等を活用）、</span></font>Slack<font face="NSimSun, monospace"><span lang="zh-CN">にて可視化します。</span></font>&lt;/strong&gt;&lt;/S&gt;
+
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">このプロセスの核心は、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">レビューでズレを正し、先行指標の質（課題の設定が正しいか）を高めることで成果指標の改善につなげる</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">学習サイクルにあります。これにより、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">実装を前に進め、結果を定着させる運用の型</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">を組織にインストールします。</span></font>&lt;/p&gt;
+
+                &lt;h3 class=&quot;section-title&quot; id=&quot;measurement-process&quot;&gt;3.2 <font face="NSimSun, monospace"><span lang="zh-CN">実行管理とオンボーディング</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">成果を創出するには、円滑なプロジェクト開始（オンボーディング）と、透明性の高いコミュニケーション基盤が不可欠です。我々は、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">参加表明→契約→</span></font>Slack<font face="NSimSun, monospace"><span lang="zh-CN">招待→開始</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">という、摩擦を最小限に抑えたプロセスを設計しています。</span></font>&lt;/p&gt;
+
+                &lt;h4 class=&quot;subsection-heading&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">オンボーディング最小手順</span></font>&lt;/h4&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">参加表明から実働開始までのプロセスは、以下のステップで迅速に実行されます。</span></font>&lt;/p&gt;
+                &lt;ol class=&quot;list-decimal mt-6&quot;&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">参加表明（簡易エントリー）</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">：プログラム参加の意思をいただきます。</span></font>&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">個別ヒアリング（優先課題・体制の確認）</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">：</span></font>1on1<font face="NSimSun, monospace"><span lang="zh-CN">面談を通じて、現状の最優先課題と、社内の実行体制を明確にします。</span></font>&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">契約／</span></font>NDA<font face="NSimSun, monospace"><span lang="zh-CN">（守秘・知財の骨子合意）</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">：守秘義務および知的財産の取り扱いに関する法的枠組みを確定します。</span></font>&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">専用</span></font>Slack<font face="NSimSun, monospace"><span lang="zh-CN">開設・招待（共通＆企業別非公開チャンネル）</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">：本プログラム専用のコミュニケーション基盤を構築します。</span></font>&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共通経営診断（テンプレ配布→面談→サメリー）</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">：標準化されたフォーマットに基づき、経営の全体像を診断し、伴走支援の初期焦点を定めます。</span></font>&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">共有プログラム開始（</span></font>P5<font face="NSimSun, monospace"><span lang="zh-CN">の</span></font>6<font face="NSimSun, monospace"><span lang="zh-CN">モジュールから優先実施）</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">：共通レイヤーのプログラムを、各社のニーズに基づき優先順位をつけて開始します。</span></font>&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;1on1<font face="NSimSun, monospace"><span lang="zh-CN">開始（個別課題の実装を並走）</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">：個別レイヤーでの伴走支援を、共通プログラムと並行してスタートします。</span></font>&lt;/li&gt;
+                &lt;/ol&gt;
+                
+                &lt;div class=&quot;overflow-x-auto&quot;&gt;
+                    &lt;ul class=&quot;chevron-process&quot; role=&quot;list&quot;&gt;
+                        &lt;li class=&quot;chevron-step chevron-step-1&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">エントリー受付</span></font>&lt;/li&gt;
+                        &lt;li class=&quot;chevron-step chevron-step-2&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">ヒアリング日程確定</span></font>&lt;/li&gt;
+                        &lt;li class=&quot;chevron-step chevron-step-3&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">契約 </span></font>/ NDA&lt;/li&gt;
+                        &lt;li class=&quot;chevron-step chevron-step-4&quot;&gt;Slack<font face="NSimSun, monospace"><span lang="zh-CN">招待</span></font>&lt;/li&gt;
+                        &lt;li class=&quot;chevron-step chevron-step-5&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">稼働開始</span></font>&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+
+
+                &lt;h4 class=&quot;subsection-heading&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">コミュニケーション基盤（</span></font>Slack<font face="NSimSun, monospace"><span lang="zh-CN">）</span></font>&lt;/h4&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">円滑な情報共有と議論の蓄積のため、</span></font>Slack<font face="NSimSun, monospace"><span lang="zh-CN">を中核的なコミュニケーション・プラットフォームとして設定します。その構成と運用ルールは以下の通りです。</span></font>&lt;/p&gt;
+                &lt;ul class=&quot;list-disc mt-6&quot;&gt;
+                    &lt;li&gt;&lt;strong&gt;Slack<font face="NSimSun, monospace"><span lang="zh-CN">構成：</span></font>&lt;/strong&gt;
+                        &lt;ul class=&quot;list-disc mt-4 ml-6 space-y-2&quot;&gt;
+                            &lt;li&gt;&lt;span class=&quot;slack-channel&quot;&gt;#announcements&lt;/span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（全体連絡）</span></font>&lt;/li&gt;
+                            &lt;li&gt;&lt;span class=&quot;slack-channel&quot;&gt;#q-and-a&lt;/span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（共通</span></font>Q&amp;A<font face="NSimSun, monospace"><span lang="zh-CN">）</span></font>&lt;/li&gt;
+                            &lt;li&gt;&lt;span class=&quot;slack-channel&quot;&gt;#shared-resources&lt;/span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（共有資料・ナレッジ）</span></font>&lt;/li&gt;
+                            &lt;li&gt;&lt;span class=&quot;slack-channel&quot;&gt;#experts&lt;/span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（エキスパート・セッション連携）</span></font>&lt;/li&gt;
+                            &lt;li&gt;&lt;span class=&quot;slack-channel&quot;&gt;#ai-lab&lt;/span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（</span></font>AI<font face="NSimSun, monospace"><span lang="zh-CN">活用ラボ）</span></font>&lt;/li&gt;
+                            &lt;li&gt;&lt;span class=&quot;slack-channel&quot;&gt;#brief-packs&lt;/span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（トレンド・ブリーフィング）</span></font>&lt;/li&gt;
+                            &lt;li&gt;&lt;span class=&quot;slack-channel&quot;&gt;#company-◯-private&lt;/span&gt;<font face="NSimSun, monospace"><span lang="zh-CN">（企業別非公開チャンネル）</span></font>&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li class=&quot;mt-4&quot;&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">運用ルール：</span></font>&lt;/strong&gt;
+                        &lt;ul class=&quot;list-disc mt-4 ml-6 space-y-2&quot;&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">スレッド運用を徹底し、議論の文脈を保持します。</span></font>&lt;/li&gt;
+                            &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">議事メモは面談当日〜翌営業日に投稿</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">し、決定事項と次のアクションを即時共有します。</span></font>&lt;/li&gt;
+                            &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">資料はポータル保存→</span></font>Slack<font face="NSimSun, monospace"><span lang="zh-CN">にリンク共有</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">を原則とし、情報の散逸を防ぎます。</span></font>&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/section&gt;
+            
+            &lt;section&gt;
+                &lt;h2 class=&quot;chapter-title&quot; id=&quot;investment&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">第</span></font>4<font face="NSimSun, monospace"><span lang="zh-CN">章：投資とパートナーシップの形態</span></font>&lt;/h2&gt;
+                
+                &lt;h3 class=&quot;section-title&quot; id=&quot;investment-model&quot;&gt;4.1 <font face="NSimSun, monospace"><span lang="zh-CN">互助型モデルによる負担の最適化</span></font>&lt;/h3&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">本ご提案「共創型 経営伴走プログラム」は、弊社、株式会社ブラッドストーン・コンサルティング、首席コンサルタント人月規定におけるご支援の</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">最小単価（月額顧問料 </span></font>674,000<font face="NSimSun, monospace"><span lang="zh-CN">円税別、</span></font>2010<font face="NSimSun, monospace"><span lang="zh-CN">年</span></font>-2025<font face="NSimSun, monospace"><span lang="zh-CN">年実績値に基づく）</span></font>&lt;/strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">を複数社にてシェア頂く特例です。売上に応じた「重み」により各社にご負担頂く月額顧問料（税別）の例をお示ししています。</span></font>&lt;/p&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">このアプローチは、共通機能をシェアし、個別機能にリソースを集中させることによる、合理的な「負担の最適化」を実現します。</span></font>&lt;/p&gt;
+
+                &lt;h4 class=&quot;subsection-heading mt-12&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">表</span></font>1<font face="NSimSun, monospace"><span lang="zh-CN">：負担分配の参照モデル</span></font>&lt;/h4&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">各社の負担額は、年商規模に基づき自動算出される「重み」に応じて決定されます。この「重み」を決定するための参照テーブル（右）と、それに基づき総顧問料をシェアするシミュレーション（左）を以下に示します。</span></font>&lt;/p&gt;
+
+                &lt;div class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6&quot;&gt;
+                    &lt;div class=&quot;md:col-span-2&quot;&gt;
+                        &lt;h5 class=&quot;font-bold text-center mb-2 text-gray-800&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">シミュレーション</span></font>A<font face="NSimSun, monospace"><span lang="zh-CN">：</span></font>5<font face="NSimSun, monospace"><span lang="zh-CN">社参加の場合</span></font>&lt;/h5&gt;
+                        &lt;div class=&quot;overflow-x-auto&quot;&gt;
+                            &lt;table class=&quot;custom-table&quot;&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">総顧問料（円）</span></font>&lt;/th&gt;
+                                        &lt;th class=&quot;text-right&quot;&gt;674,000&lt;/th&gt;
+                                        &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">重み合計</span></font>&lt;/th&gt;
+                                        &lt;th class=&quot;text-right&quot;&gt;10.1&lt;/th&gt;
+                                        &lt;th&gt;&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">会社名</span></font>&lt;/th&gt;
+                                        &lt;th class=&quot;text-left&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">売上</span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">百万円</span></font>)&lt;/th&gt;
+                                        &lt;th class=&quot;text-left&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">クラス</span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">自動</span></font>)&lt;/th&gt;
+                                        &lt;th class=&quot;text-left&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">重み</span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">自動</span></font>)&lt;/th&gt;
+                                        &lt;th class=&quot;text-left&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">月額顧問料</span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">円</span></font>)&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;A<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;120&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;0.5-2<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;1.2&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;80,079&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;B<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;180&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;0.5-2<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;1.2&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;80,079&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;C<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;270&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;2-3.5<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;1.7&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;113,446&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;D<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;380&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;3.5-5<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;2.5&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;166,832&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;E<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;600&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;5<font face="NSimSun, monospace"><span lang="zh-CN">億以上</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;3.5&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;233,564&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                                &lt;tfoot&gt;
+                                    &lt;tr&gt;
+                                        &lt;td colspan=&quot;4&quot; class=&quot;text-right&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">合計</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;674,000&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tfoot&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;md:col-span-1&quot;&gt;
+                        &lt;h5 class=&quot;font-bold text-center mb-2 text-gray-800&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">参照：クラス閾値と重み</span></font>&lt;/h5&gt;
+                        &lt;p class=&quot;text-xs text-center text-gray-600 mb-2&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">単位：百万円</span></font>&lt;/p&gt;
+                        &lt;div class=&quot;overflow-x-auto&quot;&gt;
+                            &lt;table class=&quot;custom-table&quot;&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">クラス閾値</span></font>&lt;/th&gt;
+                                        &lt;th class=&quot;text-right&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">重み</span></font>&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;0.5-2<font face="NSimSun, monospace"><span lang="zh-CN">億 </span></font>(&lt;200)&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;1.2&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;2-3.5<font face="NSimSun, monospace"><span lang="zh-CN">億 </span></font>(&lt;350)&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;1.7&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;3.5-5<font face="NSimSun, monospace"><span lang="zh-CN">億 </span></font>(&lt;500)&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;2.5&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;5<font face="NSimSun, monospace"><span lang="zh-CN">億以上 </span></font>(&gt;500)&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;3.5&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;grid grid-cols-1 md:grid-cols-3 gap-6 mt-12&quot;&gt;
+                    &lt;div class=&quot;md:col-span-2&quot;&gt;
+                        &lt;h5 class=&quot;font-bold text-center mb-2 text-gray-800&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">シミュレーション</span></font>B<font face="NSimSun, monospace"><span lang="zh-CN">：</span></font>7<font face="NSimSun, monospace"><span lang="zh-CN">社参加の場合</span></font>&lt;/h5&gt;
+                        &lt;div class=&quot;overflow-x-auto&quot;&gt;
+                            &lt;table class=&quot;custom-table&quot;&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">総顧問料（円）</span></font>&lt;/th&gt;
+                                        &lt;th class=&quot;text-right&quot;&gt;674,000&lt;/th&gt;
+                                        &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">重み合計</span></font>&lt;/th&gt;
+                                        &lt;th class=&quot;text-right&quot;&gt;13.0&lt;/th&gt;
+                                        &lt;th&gt;&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">会社名</span></font>&lt;/th&gt;
+                                        &lt;th class=&quot;text-left&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">売上</span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">百万円</span></font>)&lt;/th&gt;
+                                        &lt;th class=&quot;text-left&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">クラス</span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">自動</span></font>)&lt;/th&gt;
+                                        &lt;th class=&quot;text-left&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">重み</span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">自動</span></font>)&lt;/th&gt;
+                                        &lt;th class=&quot;text-left&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">月額顧問料</span></font>(<font face="NSimSun, monospace"><span lang="zh-CN">円</span></font>)&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;A<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;120&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;0.5-2<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;1.2&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;62,215&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;B<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;180&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;0.5-2<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;1.2&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;62,215&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;C<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;270&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;2-3.5<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;1.7&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;88,138&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;D<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;330&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;2-3.5<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;1.7&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;88,138&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;E<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;600&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;5<font face="NSimSun, monospace"><span lang="zh-CN">億以上</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;3.5&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;181,462&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;F<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;360&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;3.5-5<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;2.5&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;129,615&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;G<font face="NSimSun, monospace"><span lang="zh-CN">社</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;200&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;0.5-2<font face="NSimSun, monospace"><span lang="zh-CN">億</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;1.2&lt;/td&gt;
+                                        &lt;td class=&quot;text-left&quot;&gt;62,215&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                                &lt;tfoot&gt;
+                                    &lt;tr&gt;
+                                        &lt;td colspan=&quot;4&quot; class=&quot;text-right&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">合計</span></font>&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;674,000&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tfoot&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;md:col-span-1&quot;&gt;
+                        &lt;h5 class=&quot;font-bold text-center mb-2 text-gray-800&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">参照：クラス閾値と重み</span></font>&lt;/h5&gt;
+                        &lt;p class=&quot;text-xs text-center text-gray-600 mb-2&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">単位：百万円</span></font>&lt;/p&gt;
+                        &lt;div class=&quot;overflow-x-auto&quot;&gt;
+                            &lt;table class=&quot;custom-table&quot;&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">クラス閾値</span></font>&lt;/th&gt;
+                                        &lt;th class=&quot;text-right&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">重み</span></font>&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                &lt;tbody&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;0.5-2<font face="NSimSun, monospace"><span lang="zh-CN">億 </span></font>(&lt;200)&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;1.2&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;2-3.5<font face="NSimSun, monospace"><span lang="zh-CN">億 </span></font>(&lt;350)&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;1.7&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;3.5-5<font face="NSimSun, monospace"><span lang="zh-CN">億 </span></font>(&lt;500)&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;2.5&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;5<font face="NSimSun, monospace"><span lang="zh-CN">億以上 </span></font>(&gt;500)&lt;/td&gt;
+                                        &lt;td class=&quot;text-right&quot;&gt;3.5&lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/tbody&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                
+                &lt;p class=&quot;text-sm font-bold text-gray-700 mt-8&quot;&gt;※<font face="NSimSun, monospace"><span lang="zh-CN">最終確定値については、参加企業様数と売上によって変動することをご了承下さい。</span></font>&lt;/p&gt;
+
+                &lt;h3 class=&quot;section-title&quot; id=&quot;investment-period&quot;&gt;4.2 <font face="NSimSun, monospace"><span lang="zh-CN">契約期間と成果創出</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">真の組織変革と持続的成長の基盤構築には、一定の期間を要します。したがって、</span></font>&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">契約期間は、最短を６ヶ月としますが、成果達成、自律的持続成長を可能とする経営機能、体制整備を踏まえ標準契約期間１年を推奨します。</span></font>&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;6<font face="NSimSun, monospace"><span lang="zh-CN">ヶ月は、短期的な課題解決と成果の「兆し」を創出する期間であり、</span></font>1<font face="NSimSun, monospace"><span lang="zh-CN">年間（</span></font>12<font face="NSimSun, monospace"><span lang="zh-CN">ヶ月）は、その成果を定着させ、自律的な改善サイクルを組織文化として根付かせるための標準的な期間と位置づけています。</span></font>&lt;/p&gt;
+            &lt;/section&gt;
+            
+            &lt;section&gt;
+                &lt;h2 class=&quot;chapter-title&quot; id=&quot;appendix&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">付録：コンサルティング・スコープ</span></font>&lt;/h2&gt;
+                
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">以下に示すコンサルティング・スコープは、本プログラムが対応可能な経営課題の全体像と、我々の専門性の広がりを示すものです。</span></font>&lt;/p&gt;
+                
+                &lt;h3 class=&quot;section-title mt-12&quot; id=&quot;appendix-scope1&quot;&gt;A. <font face="NSimSun, monospace"><span lang="zh-CN">戦略レベルと機能別戦略</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">我々の支援は、経営理念・ビジョンの策定から、全社戦略、事業戦略、そして各機能戦略（人事・財務・生産・開発）まで、経営の中枢を貫く全てのレイヤーを対象とします。</span></font>&lt;/p&gt;
+                &lt;ul class=&quot;list-disc mt-6 ml-4 space-y-3&quot;&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">全社経営戦略策定</span></font>&lt;/strong&gt;
+                        &lt;ul class=&quot;list-disc mt-2 ml-6&quot;&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">企業・事業再生、</span></font>BCP<font face="NSimSun, monospace"><span lang="zh-CN">（事業継続計画）</span></font>&lt;/li&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">アライアンス設計、企業提携・買収合併（</span></font>M&amp;A<font face="NSimSun, monospace"><span lang="zh-CN">）、</span></font>PMI<font face="NSimSun, monospace"><span lang="zh-CN">（</span></font>M&amp;A<font face="NSimSun, monospace"><span lang="zh-CN">後の統合プロセス）</span></font>&lt;/li&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">マーケット・エントリー、技術移転</span></font>&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">事業（新規事業）開発</span></font>&lt;/strong&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">機能戦略（</span></font>R&amp;D<font face="NSimSun, monospace"><span lang="zh-CN">、営業、広報）</span></font>&lt;/strong&gt;
+                        &lt;ul class=&quot;list-disc mt-2 ml-6&quot;&gt;
+                            &lt;li&gt;R&amp;D<font face="NSimSun, monospace"><span lang="zh-CN">、製品・技術開発、</span></font>IP<font face="NSimSun, monospace"><span lang="zh-CN">（知的財産）マネジメント</span></font>&lt;/li&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">営業プログラム立案、実施支援</span></font>&lt;/li&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">コミュニケーション戦略（プロモーション、ブランディング、</span></font>IR<font face="NSimSun, monospace"><span lang="zh-CN">）</span></font>&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">組織改革・人材育成</span></font>&lt;/strong&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">財務戦略</span></font>&lt;/strong&gt;
+                         &lt;ul class=&quot;list-disc mt-2 ml-6&quot;&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">プライベート・エクイティーファイナンス</span></font>&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">アドバイザリー・サービス</span></font>&lt;/strong&gt;
+                         &lt;ul class=&quot;list-disc mt-2 ml-6&quot;&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">地方自治体、各国政府・行政団体アドバイザリー・サービス</span></font>&lt;/li&gt;
+                            &lt;li&gt;<font face="NSimSun, monospace"><span lang="zh-CN">ビジネスリーダー向けスキル開発トレーニング</span></font>&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+
+                &lt;h3 class=&quot;section-title mt-12&quot; id=&quot;appendix-scope2&quot;&gt;B. <font face="NSimSun, monospace"><span lang="zh-CN">事業ライフサイクル別 支援マトリクス</span></font>&lt;/h3&gt;
+                &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">さらに、企業の成長フェーズ（スタートアップ、成長期、成熟期、再生・変革期）と、経営機能（経営戦略、事業開発、人材・組織、オペレーショナル・エクセレンス）を掛け合わせたマトリクスに基づき、各社の状況に最適化されたソリューションを提供します。</span></font>&lt;/p&gt;
+
+                &lt;div class=&quot;overflow-x-auto mt-8&quot;&gt;
+                    &lt;table class=&quot;custom-table&quot;&gt;
+                        &lt;thead&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">フェーズ</span></font>&lt;/th&gt;
+                                &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">経営戦略</span></font>&lt;/th&gt;
+                                &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">事業開発</span></font>&lt;/th&gt;
+                                &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">人材・組織</span></font>&lt;/th&gt;
+                                &lt;th&gt;<font face="NSimSun, monospace"><span lang="zh-CN">オペレーショナル・エクセレンス</span></font>&lt;/th&gt;
+                            &lt;/tr&gt;
+                        &lt;/thead&gt;
+                        &lt;tbody class=&quot;bg-white text-xs&quot;&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">再生・変革期</span></font>&lt;/strong&gt;&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">事業構造改革・ターンアラウンド戦略／財務再構築・キャッシュフロー改善計画／コアコンピタンス再定義／ステークホルダーマネジメント強化／</span></font>PMI<font face="NSimSun, monospace"><span lang="zh-CN">・組織統合プログラム</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">不採算事業撤退・縮小計画／コア事業強化・収益性改善支援／財務モデリング・資金調達支援／事業価値最大化プログラム</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">危機対応リーダーシップ開発／組織スリム化・適正配置支援／チェンジマネジメント実行支援／コミュニケーション戦略構築</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">コスト構造最適化・徹底削減／業務プロセス緊急改善／リスク管理体制再構築／コンプライアンス体制強化</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">成熟期</span></font>&lt;/strong&gt;&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">事業ポートフォリオ最適化／</span></font>M&amp;A<font face="NSimSun, monospace"><span lang="zh-CN">・アライアンス戦略設計／グローバル事業再編・最適化／</span></font>CVC<font face="NSimSun, monospace"><span lang="zh-CN">設立・オープンイノベーション戦略／</span></font>ESG<font face="NSimSun, monospace"><span lang="zh-CN">経営・統合報告戦略</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">顧客生涯価値</span></font>(LTV)<font face="NSimSun, monospace"><span lang="zh-CN">最大化支援／新規事業創出・イノベーション加速／サーキュラーエコノミーモデル導入／デジタルビジネスモデル変革／顧客体験</span></font>(CX)<font face="NSimSun, monospace"><span lang="zh-CN">変革プログラム</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">企業文化・パーパス浸透プログラム／人的資本経営移行支援／無形資産価値創造・可視化／経営幹部育成・後継者計画／ダイバーシティ</span></font>&amp;<font face="NSimSun, monospace"><span lang="zh-CN">インクル</span></font>S<font face="NSimSun, monospace"><span lang="zh-CN">ージョン推進</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">データドリブン経営基盤構築／</span></font>AI<font face="NSimSun, monospace"><span lang="zh-CN">活用業務高度化支援／デジタルツイン・予測分析導入／サプライチェーン最適化・レジリエンス強化／品質マネジメントシステム高度化</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">成長期</span></font>&lt;/strong&gt;&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">成長投資戦略・資金調達支援／事業拡大ロードマップ策定／競争優位性構築・差別化戦略／</span></font>IPO<font face="NSimSun, monospace"><span lang="zh-CN">準備・実行支援／マーケットポジショニング戦略</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">スケールアップ実行支援／新規市場開拓・チャネル戦略／製品・サービスライン拡張支援／カスタマーサクセス体制構築／収益モデル多様化支援</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">ハイパーグロース組織設計／リーダーシップパイプライン構築／パフォーマンスマネジメント高度化／人材獲得・定着戦略／組織間コラボレーション促進</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">スケーラブルオペレーション構築／プロセス標準化・システム化／アジャイル開発・デリバリー体制／グロース分析基盤構築／</span></font>SaaS<font face="NSimSun, monospace"><span lang="zh-CN">運用最適化支援</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">スタートアップ</span></font>&lt;/strong&gt;&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">ビジョン・ミッション策定／製品市場フィット検証支援／シード</span></font>/<font face="NSimSun, monospace"><span lang="zh-CN">アーリー資金調調達戦略／市場参入戦略・ゴーツーマーケット／スケーラブルビジネスモデル設計</span></font>&lt;/td&gt;
+                                &lt;td&gt;MVP<font face="NSimSun, monospace"><span lang="zh-CN">開発・検証サイクル支援／初期顧客獲得・トラクション支援／プロダクト戦略・ロードマップ策定／収益化モデル構築・最適化／初期パートナーシップ構築</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">創業チーム組成・強化支援／初期採用戦略・組織設計／フラット組織運営支援／アジャイルカルチャー構築／経営メンタリング・コーチ</span></font>ING&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">リーンスタートアップ手法導入／プロトタイピング・迅速検証支援／初期</span></font>IT<font face="NSimSun, monospace"><span lang="zh-CN">基盤・ツール選定／データ収集・分析体制構築／知的財産戦略・保護支援</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">公共・地域</span></font>&lt;/strong&gt;&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">地域産業振興戦略設計／官民連携</span></font>(PPP)<font face="NSimSun, monospace"><span lang="zh-CN">事業構想／スマートシティ構想策定／地域ブランディング戦略／グリーンリカバリー・脱炭素戦略</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">地域課題解決型事業創出／観光・インバウンド戦略／地域資源活用・</span></font>6<font face="NSimSun, monospace"><span lang="zh-CN">次産業化支援／社会インパクト評価・実装／デジタル公共サービス開発</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">地域リーダー育成プログラム／産学官連携体制構築／自治体</span></font>DX<font face="NSimSun, monospace"><span lang="zh-CN">人材育成／コミュニティビルディング支援／地域イノベーター育成</span></font>&lt;/td&gt;
+                                &lt;td&gt;<font face="NSimSun, monospace"><span lang="zh-CN">自治体デジタル変革支援／地域データ連携基盤構築／スマートインフラ導入・運用／災害レジリエンス体制構築／地域循環経済システム設計</span></font>&lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;
+                &lt;/div&gt;
+
+            &lt;!-- ▼ <font face="NSimSun, monospace"><span lang="zh-CN">修正点：「付録」セクションをここで閉じる ▼ </span></font>--&gt;
+            &lt;/section&gt;
+
+            &lt;!-- ▼ <font face="NSimSun, monospace"><span lang="zh-CN">修正点：「連絡先」セクションを開始。</span></font>ID<font face="NSimSun, monospace"><span lang="zh-CN">は削除 ▼ </span></font>--&gt;
+            &lt;section class=&quot;pt-16&quot;&gt;
+                
+                &lt;!-- ▼ <font face="NSimSun, monospace"><span lang="zh-CN">修正点：</span></font>mt-16<font face="NSimSun, monospace"><span lang="zh-CN">（</span></font>margin-top<font face="NSimSun, monospace"><span lang="zh-CN">）を削除（親の</span></font>section<font face="NSimSun, monospace"><span lang="zh-CN">の</span></font>pt-16<font face="NSimSun, monospace"><span lang="zh-CN">で余白を制御）▼ </span></font>--&gt;
+                &lt;div class=&quot;pt-8 border-t border-gray-200&quot;&gt;
+                    &lt;!-- ▼ <font face="NSimSun, monospace"><span lang="zh-CN">修正点：アンカー</span></font>ID<font face="NSimSun, monospace"><span lang="zh-CN">を</span></font>H4<font face="NSimSun, monospace"><span lang="zh-CN">に移動 ▼ </span></font>--&gt;
+                    &lt;h4 class=&quot;font-bold text-lg mb-4 text-gray-800&quot; id=&quot;contact-anchor&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">お問い合わせ</span></font>&lt;/h4&gt;
+                    &lt;p class=&quot;text-base&quot;&gt;&lt;strong&gt;<font face="NSimSun, monospace"><span lang="zh-CN">株式会社ブラッドストーン・コンサルティング</span></font>&lt;/strong&gt;&lt;/p&gt;
+                    &lt;p class=&quot;text-sm&quot;&gt;
+                        <font face="NSimSun, monospace"><span lang="zh-CN">〒</span></font>150-8512 <font face="NSimSun, monospace"><span lang="zh-CN">東京都渋谷区桜丘町</span></font>26-1&lt;br&gt;<font face="NSimSun, monospace"><span lang="zh-CN">セルリアンタワー</span></font>15<font face="NSimSun, monospace"><span lang="zh-CN">階</span></font>&lt;br&gt;
+                        info@bradstonemi.com
+                    &lt;/S&gt;
+                    &lt;p class=&quot;mt-4&quot;&gt;
+                        &lt;a href=&quot;http://bp2bt.com/&quot; class=&quot;link-button&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">公式サイト</span></font>&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/section&gt;
+        &lt;/main&gt;
+
+        &lt;!-- <font face="NSimSun, monospace"><span lang="zh-CN">フッターセクション </span></font>--&gt;
+        &lt;footer class=&quot;final-footer prose max-w-none&quot;&gt;
+             
+             &lt;div class=&quot;grid md:grid-cols-2 gap-8&quot;&gt;
+                &lt;div class=&quot;md:col-span-1&quot;&gt;
+                     &lt;h4&gt;About the Author&lt;/h4&gt;
+                     &lt;p&gt;Sean Kawakami is a dynamic force in corporate and business development, turnaround, and transformation. As a strategy management consultant and the Representative Director of The Bradstone Consulting, he blends the roles of a hands-on advisor, a thought-provoking author, and a captivating speaker.&lt;/p&gt;
+                     
+                     &lt;p class=&quot;mt-4&quot;&gt;
+                         &lt;a href=&quot;https://note.com/seankawakami&quot; class=&quot;link-button&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;<font face="NSimSun, monospace"><span lang="zh-CN">経営戦略論考</span></font>&lt;/a&gt;
+                     &lt;/p&gt;
+                     &lt;p class=&quot;mt-4 text-xs&quot;&gt;© 2025 Sean Kawakami / The Bradstone Consulting. All rights reserved&lt;/p&gt;
+                &lt;/div&gt;
+                 &lt;div class=&quot;md:col-span-1&quot;&gt;
+                     &lt;h4&gt;<font face="NSimSun, monospace"><span lang="zh-CN">本提案書のご利用にあたっての留意事項</span></font>&lt;/h4&gt;
+                     
+                     &lt;p&gt;<font face="NSimSun, monospace"><span lang="zh-CN">本提案書は、特定の読者を対象として情報提供の目的で作成されたものであり、いかなる種類の投資助言、勧誘、または推奨を意図するものではありません。本提案書に記載された情報は、公表されている情報や信頼できると判断した情報源に基づいておりますが、その正確性、完全性、または最新性を保証するものではありません。本提案書中の意見、分析、予測、および将来の見通しに関する記述は、提案書作成時点での筆者の判断であり、事前の予告なく変更されることがあります。また、これらの記述は将来の結果を保証するものではありません。筆者およびその所属組織は、本提案書の使用またはその内容に依拠したことから生じるいかなる直接的または間接的な損害についても、一切の責任を負いかねます。事業上、投資上の意思決定にあたっては、ご自身の判断と責任において行うようお願い申し上げます。本提案書の著作権は筆者に帰属します。事前の書面による許可なく、本提案書のいかなる部分も複製、転載、配布、または改変することを固く禁じます。</span></font>&lt;/p&gt;
+                 &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/footer&gt;
+    &lt;/div&gt;
+
+    &lt;!-- ▼ <font face="NSimSun, monospace"><span lang="zh-CN">修正点：</span></font>Google<font face="NSimSun, monospace"><span lang="zh-CN">サイト埋め込み用スクロール制御</span></font>JavaScript<font face="NSimSun, monospace"><span lang="zh-CN">（位置計算のロジックを変更） ▼ </span></font>--&gt;
+    &lt;script&gt;
+        document.addEventListener('DOMContentLoaded', () =&gt; {
+            // <font face="NSimSun, monospace"><span lang="zh-CN">固定ヘッダーの高さを定義（</span></font>Google<font face="NSimSun, monospace"><span lang="zh-CN">サイトのヘッダー分）</span></font>
+            const headerOffset = 80; // <font face="NSimSun, monospace"><span lang="zh-CN">この数値</span></font>(80px)<font face="NSimSun, monospace"><span lang="zh-CN">で隠れ具合を調整</span></font>
+
+            // === ▼▼ <font face="NSimSun, monospace"><span lang="zh-CN">修正点：位置計算のロジックを </span></font>getBoundingClientRect <font face="NSimSun, monospace"><span lang="zh-CN">から </span></font>getAbsoluteTop <font face="NSimSun, monospace"><span lang="zh-CN">に変更 ▼▼ </span></font>===
+
+            /**
+             * <font face="NSimSun, monospace"><span lang="zh-CN">ターゲット要素のドキュメント（ページ全体）の上端からの絶対位置を取得する</span></font>
+             * @param {HTMLElement} element - <font face="NSimSun, monospace"><span lang="zh-CN">位置を取得するターゲット要素</span></font>
+             * @returns {number} - <font face="NSimSun, monospace"><span lang="zh-CN">ページの上端からのピクセル位置</span></font>
+             */
+            function getAbsoluteTop(element) {
+                let top = 0;
+                // element <font face="NSimSun, monospace"><span lang="zh-CN">が存在する限り、その </span></font>offsetTop <font face="NSimSun, monospace"><span lang="zh-CN">を加算し、親要素 </span></font>(offsetParent) <font face="NSimSun, monospace"><span lang="zh-CN">をたどる</span></font>
+                while(element) {
+                    top += element.offsetTop;
+                    element = element.offsetParent;
+                }
+                return top;
+            }
+
+            /**
+             * <font face="NSimSun, monospace"><span lang="zh-CN">スムーズスクロールを実装する関数</span></font>
+             * @param {string} targetId - <font face="NSimSun, monospace"><span lang="zh-CN">スクロール先の要素の</span></font>ID
+             */
+            function smoothScrollTo(targetId) {
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    // ★<font face="NSimSun, monospace"><span lang="zh-CN">変更点：</span></font>getAbsoluteTop <font face="NSimSun, monospace"><span lang="zh-CN">を使って位置を計算</span></font>
+                    const elementPosition = getAbsoluteTop(targetElement);
+                    
+                    // <font face="NSimSun, monospace"><span lang="zh-CN">ヘッダーの高さを考慮した最終的なスクロール位置を計算</span></font>
+                    const offsetPosition = elementPosition - headerOffset;
+
+                    // <font face="NSimSun, monospace"><span lang="zh-CN">計算された位置へスムーズにスクロール</span></font>
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    console.warn('Scroll target not found:', targetId);
+                }
+            }
+            // === ▲▲ <font face="NSimSun, monospace"><span lang="zh-CN">修正点ここまで ▲▲ </span></font>===
+
+
+            // <font face="NSimSun, monospace"><span lang="zh-CN">すべてのナビゲーションリンクにイベントリスナーを設定</span></font>
+            const navLinks = document.querySelectorAll('.global-nav ul li a');
+
+            navLinks.forEach(link =&gt; {
+                link.addEventListener('click', function(event) {
+                    const href = this.getAttribute('href');
+
+                    // <font face="NSimSun, monospace"><span lang="zh-CN">ページ内リンク（</span></font>#<font face="NSimSun, monospace"><span lang="zh-CN">で始まる）の場合のみ処理</span></font>
+                    if (href &amp;&amp; href.startsWith('#')) {
+                        // <font face="NSimSun, monospace"><span lang="zh-CN">デフォルトのアンカーリンク動作（と</span></font>Google<font face="NSimSun, monospace"><span lang="zh-CN">サイトの</span></font>iframe<font face="NSimSun, monospace"><span lang="zh-CN">による誤動作）をキャンセル</span></font>
+                        event.preventDefault();
+
+                        // '#' <font face="NSimSun, monospace"><span lang="zh-CN">を除いた</span></font>ID<font face="NSimSun, monospace"><span lang="zh-CN">を取得</span></font>
+                        const targetId = href.substring(1);
+                        
+                        // <font face="NSimSun, monospace"><span lang="zh-CN">カスタムスクロール関数を実行</span></font>
+                        smoothScrollTo(targetId);
+                    }
+                });
+            });
+        });
+    &lt;/script&gt;
+    &lt;!-- === /<font face="NSimSun, monospace"><span lang="zh-CN">スクロール制御</span></font>JavaScript === --&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
